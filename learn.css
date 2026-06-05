@@ -51,5 +51,18 @@ padding-top:28vh;
   display:flex;
   flex-direction: row;
  column-gap: 20px;;
-  
+
+}
+.rightpart a{
+    text-decoration: none;
+    color:black
+}
+@media (max-width:600px){
+  .rightpart{
+    font-size: 14px;
+    column-gap: 10px;
+  }
+  .text{
+    font-size: 37px;
+  }
 }
